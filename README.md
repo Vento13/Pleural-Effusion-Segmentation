@@ -1,5 +1,7 @@
 #  Semantic segmentation baseline with PyTorch for detection of pleural effusion
 
+Test task for AIDiagnostic
+
 This repository contains:
 - U-Net model architecture
 - Pipeline of training and testing model with various losses: Dice loss, BCE_Dice loss, Tversky loss, Focal-Tversky loss
