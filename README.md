@@ -3,13 +3,15 @@
 Test task for AIDiagnostic
 
 This repository contains:
-- U-Net model architecture
-- Pipeline of training and testing model with various losses: Dice loss, BCE_Dice loss, Tversky loss, Focal-Tversky loss
-- File with data preprocessing and loading
-- Dice coefficient counting function
-- subset and subset_mask – data (images and masks)
-- Folder "output": .pt files with models weights and Dice coefficient plots with each epoch
-- Folder "runs" with Tensorboard logs
+- U-Net model architecture: `./UnetModel.py`
+- Data preprocessing and loading: `./DataPreprocessing.py`
+- Dice coefficient counting function: `./DiceCoefficient.py`
+- Pipeline of training and testing model with various losses (BCE_Dice loss, Dice loss, Tversky loss, Focal-Tversky loss): `./main.ipynb`
+- Data: `./subset/`, `./subset_masks/`
+- .pt files with models weights and Dice coefficient plots with each epoch: `./output/`
+- Tensorboard logs: `./runs/`
+
+---
 
 ### Results
 | Loss function | Dice coefficient |
